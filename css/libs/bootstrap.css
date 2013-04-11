@@ -6138,6 +6138,7 @@ a.badge:focus {
 
 .pull-left {
   float: left;
+  text-align: center;
 }
 
 .hide {
