@@ -9,7 +9,17 @@ body {
 	margin: 0 auto;
 	width: 960px;
 }
-	
+	a {
+		background-color: #FCD721;
+	  color: #080000;
+	  text-decoration: none;
+	}
+
+	a:hover,
+	a:focus {
+	  color: #FFFFFF;
+		text-decoration: none;
+	}
 	h2 {
 		font-size: 30px;
 		font-weight: 200;
@@ -38,6 +48,7 @@ body {
 		background: transparent url('img/bg-logo.png') no-repeat;
 	}
 	header h1 a {
+		background: none;
 		outline: none;
 		border: 0;
 		display: block;
@@ -132,6 +143,14 @@ body {
 }
 .carousel-caption .btn {
   margin-top: 10px;
+}
+.box {
+	background-color: #FCD721;
+	color: #080000;
+	font: italic 14px Georgia, "Times New Roman", Times, serif;
+	padding: 9px 14px;
+	text-decoration: none;
+	line-height: 68px;
 }
 
 /* CONTENT
@@ -286,8 +305,35 @@ body > section {
 			list-style: none;
 		}
 		.contact .btn {
-			margin-right: 5px;
+			background-color: hsl(49, 100%, 58%) !important;
+			background-repeat: repeat-x;
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe265", endColorstr="#ffd728");
+			background-image: -khtml-gradient(linear, left top, left bottom, from(#ffe265), to(#ffd728));
+			background-image: -moz-linear-gradient(top, #ffe265, #ffd728);
+			background-image: -ms-linear-gradient(top, #ffe265, #ffd728);
+			background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffe265), color-stop(100%, #ffd728));
+			background-image: -webkit-linear-gradient(top, #ffe265, #ffd728);
+			background-image: -o-linear-gradient(top, #ffe265, #ffd728);
+			background-image: linear-gradient(#ffe265, #ffd728);
+			border-color: #ffd728 #ffd728 hsl(49, 100%, 55%);
+			text-shadow: 0 1px 1px rgba(255, 255, 255, 0.19);
+			-webkit-font-smoothing: antialiased;
+			margin-right: 7px;
 			width: 100px;
+			color: #080000;
+			font: italic 20px Georgia, "Times New Roman", Times, serif;
+			padding: 5px 14px;
+			text-decoration: none;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+		}
+		.contact .btn:hover {
+			color: #FFFFFF;
+		}
+		.contact input:focus,
+		textarea:focus {
+			border-color: #FCD721;
 		}
 		select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
 			height: 25px;
@@ -311,6 +357,24 @@ footer {
 	footer p {
 		font-size: 16px;
 		margin: 250px 20px 0;
+	}
+	footer .pull-right {
+		margin-right: 0;
+	}
+	footer .pull-right a,
+	footer .pull-right a:visited,
+	footer .pull-right a:hover {
+	    background-color: #FCD721;
+      color: #080000;
+      font: italic 20px Georgia, "Times New Roman", Times, serif;
+      padding: 9px 14px;
+      text-decoration: none;
+    }
+    footer .pull-right a:hover {
+	    color: #FFFFFF;
+	}
+	.icon-chevron-up {
+	    margin-top: 5px;
 	}
 	
 .carousel, body > section, .container, .about, .contact, footer {
