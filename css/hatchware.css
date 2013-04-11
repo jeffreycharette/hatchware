@@ -225,12 +225,12 @@ body > section {
 	
 /* about section */
 .about {
-	background: #080000 url('img/bg-studio.jpg') no-repeat top center;
+	background: #080000 url('img/bg-studio1.jpg') no-repeat bottom center;
 	border-top: 4px solid #A7A9AC;
-	height: 526px;
+	height: 560px;
 	text-align: center;
 	width: 100%;
-	padding-top: 110px;
+	padding-top: 160px;
 }
 	.about h2,
 	.about p {
