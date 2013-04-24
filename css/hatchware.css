@@ -3,7 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-	background: #f8f8f8 url('img/bg-light-yellow.gif') repeat-x fixed;
+	background: url('img/bg-light-yellow.gif') repeat-x fixed, #2a2a2a url('img/bg-pattern.png') repeat;
   color: #080000;
 	font-size: 14px;
 	margin: 0 auto;
@@ -19,6 +19,7 @@ body {
 	a:focus {
 	  color: #FFFFFF;
 		text-decoration: none;
+		text-shadow: 0 1px 0 rgba(102, 102, 102, 0.5);
 	}
 	h2 {
 		font-size: 30px;
@@ -78,6 +79,7 @@ body {
 	  -webkit-border-radius: 0;
 	     -moz-border-radius: 0;
 	          border-radius: 0;
+		text-shadow: none;
 	}
 	
 	.nav > li a {
@@ -104,6 +106,13 @@ body {
 	.carousel-caption p {
 		color: #080000;
 		font-size: 14px;
+	}
+	.carousel .white {
+		background-color: rgba(0, 0, 0, .3);
+		width: 349px;
+	}
+	.carousel .white, .carousel .white p {
+		color: #FFFFFF;
 	}
 
 .carousel .container {
@@ -202,7 +211,8 @@ body > section {
 		font: italic 20px Georgia, "Times New Roman", Times, serif;
 		padding: 9px 14px;
 		text-decoration: none;
-	}
+	
+}
 	body > section li a:hover {
 		color: white;
 	}
@@ -249,7 +259,7 @@ body > section {
 	height: 560px;
 	text-align: center;
 	width: 100%;
-	padding-top: 160px;
+	padding-top: 130px;
 }
 	.about h2,
 	.about p {
@@ -378,7 +388,14 @@ footer {
 	}
 	
 .carousel, body > section, .container, .about, .contact, footer {
-	-webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 0.03);
-	-moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 0.03);
-	box-shadow:         0px 0px 23px rgba(50, 50, 50, 0.03);
+	-webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, .05);
+	-moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, .05);
+	box-shadow:         0px 0px 23px rgba(50, 50, 50, .05);
+}
+body > section li a:hover,
+.box:hover,
+footer .pull-right a:hover {
+	-webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, .1);
+	-moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, .1);
+	box-shadow:         0px 0px 23px rgba(50, 50, 50, .1);
 }
