@@ -22,6 +22,7 @@ body {
 		text-shadow: 0 1px 0 rgba(102, 102, 102, 0.5);
 	}
 	h2 {
+		font-family: "Proxima Nova", sans-serif;
 		font-size: 30px;
 		font-weight: 200;
 	}
@@ -191,20 +192,7 @@ body > section {
 	body > section h2 {
 		margin-top: 60px;
 		text-align: center;
-		font-family: "Proxima Nova", sans-serif;
 		font-weight: 600;
-	}
-
-	body > section h3 {
-		text-align: center;
-		font: italic 16px Georgia, "Times New Roman", Times, serif;
-	}
-
-	body > section .span4 p {
-		text-align: center;
-		font-family: "Proxima Nova", sans-serif;
-		font-weight: 500;
-		color: #999;
 	}
 	
 	body > section ul {
@@ -276,6 +264,18 @@ body > section {
 	.grid .span4 img {
 		border-bottom: 2px solid #FCD721;
 	}
+
+	.grid .span4 h3 {
+		text-align: center;
+		font: italic 16px Georgia, "Times New Roman", Times, serif;
+	}
+
+	.grid .span4 p {
+		text-align: center;
+		font-family: "Proxima Nova", sans-serif;
+		font-weight: 500;
+		color: #999;
+	}
 	
 /* about section */
 .about {
@@ -318,9 +318,10 @@ body > section {
 		border-bottom: 3px solid #FFFFFF;
 		color: #FFFFFF;
 		margin: 30px auto 50px;
-		width: 150px;
+		width: 160px;
 		font-family: "Proxima Nova", sans-serif;
 		font-weight: 600;
+		text-align: center;
 	}
 	.contact p {
 		font: italic 16px Georgia, "Times New Roman", Times, serif;
@@ -390,8 +391,7 @@ footer {
 	footer h2 {
 		border-bottom: 3px solid #D1D3D4;
 		margin: 20px auto 40px;
-		width: 300px;
-		font-family: "Proxima Nova", sans-serif;
+		width: 310px;
 		font-weight: 600;
 		text-align: center;
 	}
