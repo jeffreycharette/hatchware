@@ -40,7 +40,7 @@ body {
 		-webkit-box-shadow: 0px 18px 23px rgba(50, 50, 50, 0.03);
 		-moz-box-shadow:    0px 18px 23px rgba(50, 50, 50, 0.03);
 		box-shadow:         0px 18px 23px rgba(50, 50, 50, 0.03);
-}
+	}
 	header h1 {
 		margin: 0;
 		width: 356px;
@@ -105,6 +105,8 @@ body {
 }
 	.carousel-caption p {
 		color: #080000;
+		font-family: "Proxima Nova", sans-serif;
+		font-weight: 400;
 		font-size: 14px;
 	}
 	.carousel .white {
@@ -116,21 +118,21 @@ body {
 	}
 
 .carousel .container {
-  position: relative;
-  z-index: 9;
+	position: relative;
+	z-index: 9;
 }
 
 .carousel-control {
-		color: #FCD721;
-		font-weight: 300;
-		opacity: 1;
-  height: 80px;
-  margin-top: 0;
-  font-size: 110px;
-  text-shadow: 0 1px 1px rgba(0,0,0,.4);
-  background-color: transparent;
-  border: 0;
-  z-index: 10;
+	color: #FCD721;
+	font-weight: 300;
+	opacity: 1;
+	height: 80px;
+	margin-top: 0;
+	font-size: 110px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: transparent;
+	border: 0;
+	z-index: 10;
 }
 	.carousel-control:hover {
 		color: #080000;
@@ -152,6 +154,13 @@ body {
 }
 .carousel-caption .btn {
   margin-top: 10px;
+}
+.carousel-caption h2 {
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 700;
+}
+.carousel-caption h3 {
+	font: italic 18px Georgia, "Times New Roman", Times, serif;
 }
 .box {
 	background-color: #FCD721;
@@ -182,6 +191,20 @@ body > section {
 	body > section h2 {
 		margin-top: 60px;
 		text-align: center;
+		font-family: "Proxima Nova", sans-serif;
+		font-weight: 600;
+	}
+
+	body > section h3 {
+		text-align: center;
+		font: italic 16px Georgia, "Times New Roman", Times, serif;
+	}
+
+	body > section .span4 p {
+		text-align: center;
+		font-family: "Proxima Nova", sans-serif;
+		font-weight: 500;
+		color: #999;
 	}
 	
 	body > section ul {
@@ -231,6 +254,8 @@ body > section {
 	.black-menu h2 {
 		color: #FFFFFF;
 		margin-top: 20px;
+		font-family: "Proxima Nova", sans-serif;
+		font-weight: 600;
 	}
 	
 /* grid section */
@@ -268,6 +293,8 @@ body > section {
 	}
 	.about h2 {
 		color: #FCD721;
+		font-family: "Proxima Nova", sans-serif;
+		font-weight: 600;
 		margin-bottom: 15px;
 	}
 	.about p {
@@ -292,6 +319,8 @@ body > section {
 		color: #FFFFFF;
 		margin: 30px auto 50px;
 		width: 150px;
+		font-family: "Proxima Nova", sans-serif;
+		font-weight: 600;
 	}
 	.contact p {
 		font: italic 16px Georgia, "Times New Roman", Times, serif;
@@ -362,10 +391,14 @@ footer {
 		border-bottom: 3px solid #D1D3D4;
 		margin: 20px auto 40px;
 		width: 300px;
+		font-family: "Proxima Nova", sans-serif;
+		font-weight: 600;
 		text-align: center;
 	}
 	footer p {
 		font-size: 16px;
+		font-family: "Proxima Nova", sans-serif;
+		font-weight: 500;
 		margin: 250px 20px 0;
 	}
 	footer .pull-right {
