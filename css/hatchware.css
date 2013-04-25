@@ -250,6 +250,7 @@ body > section {
 .grid {
 	background: #FFFFFF;
 	text-align: center;
+	padding-bottom: 20px;
 }
 .grid::before {
 	content: url('img/bg-arrow-black.png');
@@ -259,10 +260,20 @@ body > section {
 	text-align: center;
 }
 	.grid .row {
-		margin-top: 60px;
+		margin-top: 40px;
+	}
+	.grid .span4 div {
+		margin: 0 auto 0 auto;
+		width: 85%;
 	}
 	.grid .span4 img {
-		border-bottom: 2px solid #FCD721;
+		margin: 0 auto 0 auto;
+	}
+	.grid .span4 hr {
+		margin: 0;
+		width: 100%;
+		height: 2px;
+		background: #FCD721;
 	}
 
 	.grid .span4 h3 {

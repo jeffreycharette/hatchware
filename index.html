@@ -114,58 +114,66 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container">
-			<section id="features" class="black-menu">
-        <h2>Features</h2>
-      </section>
-      <!-- Three columns of text below the carousel -->
-			<section class="grid">
-	      <div class="row">
-	        <div class="span4">
+		<section id="features" class="black-menu">
+        	<h2>Features</h2>
+        </section>
+        <!-- Three columns of text below the carousel -->
+		<section class="grid">
+	      	<div class="row">
+		        <div class="span4">
+		        	<div>
 						<img src="images/cross-browser.png" width="244" height="165" alt="Cross Browser">
-	          <h3>Works across any browser capable device.</h3>
-	          <p>CURRENTLY SUPPORTING:<br />
-						latest desktop and mobile browsers.</p>
-	        </div>
-					<div class="span4">
+						<hr />
+						<h3>Works across any browser capable device.</h3>
+						<p>CURRENTLY SUPPORTING:<br />latest desktop and mobile browsers.</p>
+					</div>
+		        </div>
+				<div class="span4">
+					<div>
 						<img src="images/wifi.png" width="244" height="165" alt="Wi-fi">
-	          <h3>Access online &amp; off.</h3>
-	          <p>Our solution works offline and syncs the next time a connection is detected.  This mean it never goes down.</p>
-	        </div>
-					<div class="span4">
+						<hr />
+				        <h3>Access online &amp; off.</h3>
+				        <p>Our solution works offline and syncs the next time a connection is detected. This mean it never goes down.</p>
+			    	</div>
+		        </div>
+				<div class="span4">
+					<div>
 						<img src="images/cms.png" width="244" height="165" alt="Content Management System">
-	          <h3>Updating your menus made easy.</h3>
-	          <p>Our Content Management System
-						seamlessly integrates with your content
-						using our edit-in-place interface.</p>
-	        </div>
-				</div>
-				<div class="row">
-					<div class="span4">
+						<hr />
+				        <h3>Updating your menus made easy.</h3>
+				        <p>Our Content Management System<br />seamlessly integrates with your content<br />using our edit-in-place interface.</p>
+			    	</div>
+		        </div>
+			</div>
+			<div class="row">
+				<div class="span4">
+					<div>
 						<img src="images/menu-hardware.png" width="244" height="165" alt="Menu Hardware">
-	          <h3>Easy to implement high-
-						definition platform.</h3>
-	          <p>Our platform is built to run off of
-						Computers and Mini Tv&rsquo;s for a
-						seamless plug and play experience.</p>
-	        </div>
-					<div class="span4">
+						<hr />
+		          		<h3>Easy to implement high-definition platform.</h3>
+		          		<p>Our platform is built to run off of<br />Computers and Mini Tv&rsquo;s for a<br />seamless plug and play experience.</p>
+	          		</div>
+	        	</div>
+				<div class="span4">
+					<div>
 						<img src="images/cost.png" width="244" height="165" alt="Technology">
-	          <h3>A cost-effective alternative to traditional menu displays.</h3>
-	          <p>Our customers experience
-						immediate growth from
-						increased exposure and legibility.</p>
-	        </div>
-					<div class="span4">
+						<hr />
+		          		<h3>A cost-effective alternative to traditional menu displays.</h3>
+		          		<p>Our customers experience<br />immediate growth from<br />increased exposure and legibility.</p>
+	          		</div>
+	        	</div>
+				<div class="span4">
+					<div>
 						<img src="images/replication.gif" width="244" height="165" alt="Replication">
-	          <h3>Easily distribute your menus to multiple locations.</h3>
-	          <p>Management of your menus
-						is easily distributed across
-						our fault tolerant cloud.</p>
-	        </div>
-	      </div>
-			</section>
+						<hr />
+		          		<h3>Easily distribute your menus to multiple locations.</h3>
+		          		<p>Management of your menus<br />is easily distributed across<br />our fault tolerant cloud.</p>
+	          		</div>
+	        	</div>
+	      	</div>
+		</section>
 
-      <section id="about" class="about">
+        <section id="about" class="about">
         <h2>What is Hatchware?</h2>
 				<p class="seperator">Hatchware is the brainchild of We Are Charette,
 				a multidisciplinary design firm with clients
@@ -258,14 +266,16 @@
     <script>
       !function ($) {
         $(function(){
-          // carousel demo
-          $('#myCarousel').carousel({
-						interval: 7000
-					});
-					$('.nav li').click(function() {
-						$('.nav li').removeClass('active');
-						$(this).addClass('active');
-					});
+          	// carousel demo
+          	$('#myCarousel').carousel({
+				interval: 7000
+			});
+			$('.nav li').click(function() {
+				$('.nav li').removeClass('active');
+				$(this).addClass('active');
+			});
+			$.localScroll.hash();
+			$.localScroll({hash:true});
         })
       }(window.jQuery)
     </script>
